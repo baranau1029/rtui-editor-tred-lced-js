@@ -1,0 +1,27 @@
+.toaster-wrappers {
+  position: fixed;
+  top: 0;
+  right: 0.5rem;
+  width: 16rem;
+  padding-top: 1rem;
+  z-index: 1059;
+  .toast.toast-success,
+  .header-success {
+    max-width: 15rem;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  .toast.toast-warning,
+  .header-waring {
+    max-width: 15rem;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  .btn-close.toast-btn-close {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,287 @@
+.text-gray {
+  color: #52606d;
+}
+.text-light-gray {
+  color: rgb(191, 204, 214);
+}
+.error {
+  color: $error;
+}
+.warnings {
+  color: $yellow;
+}
+.btn.btn-light-gray {
+  color: $black;
+  background-color: $lightGray;
+  border-color: $lightGray;
+}
+
+.btn.btn-check:focus + .btn.btn-light,
+.btn.btn-light:focus {
+  background-color: $lightGray;
+  border-color: $lightGray;
+  box-shadow: none;
+}
+
+.btn.btn-light {
+  color: $black;
+  background-color: $lightGray;
+  border-color: $lightGray;
+  &:hover {
+    color: $black;
+    background-color: #ced3db;
+    border-color: #c7cdd5;
+  }
+}
+.btn.btn-secondary {
+  color: #fff;
+  background-color: $darkGray;
+  border-color: $darkGray;
+}
+
+.badge.badge-pill {
+  background-color: $lightGray;
+  color: $black;
+  border-radius: 10rem;
+  margin: 0.2rem;
+}
+
+.__react_component_tooltip {
+  padding: 0;
+  border: 1px solid $lightBlack !important;
+  background-color: $white !important;
+  border-radius: 0.2rem;
+  min-width: 10rem;
+  padding: 0.5rem !important;
+  position: relative;
+  color: $black !important;
+  opacity: 1 !important;
+}
+.__react_component_tooltip.type-light.place-right:after {
+  border-right-color: none !important;
+  border-right-style: none !important;
+  border-right-width: none !important;
+  transform: rotate(-45deg);
+  z-index: 9999;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: $white !important;
+  border-top: 1px solid $lightBlack !important;
+  border-left: 1px solid $lightBlack !important;
+}
+
+.__react_component_tooltip.type-light.place-top:after {
+  border-top-color: none !important;
+  border-top-style: none !important;
+  border-top-width: none !important;
+  transform: rotate(45deg);
+  z-index: 9999;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: $white !important;
+  border-bottom: 1px solid $lightBlack !important;
+  border-right: 1px solid $lightBlack !important;
+}
+
+.__react_component_tooltip.type-dark.place-top:after {
+  border-top-color: none !important;
+  border-top-style: none !important;
+  border-top-width: none !important;
+  transform: rotate(45deg);
+  z-index: 9999;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: rgba(0, 0, 0, 1) !important;
+  border-top: 1px solid rgba(0, 0, 0, 1) !important;
+  border-right: 1px solid rgba(0, 0, 0, 1) !important;
+}
+
+.__react_component_tooltip.type-light.place-bottom:after {
+  border-bottom-color: none !important;
+  border-bottom-style: none !important;
+  border-bottom-width: none !important;
+  transform: rotate(-45deg);
+  z-index: 9999;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: $white !important;
+  border-top: 1px solid $lightBlack !important;
+  border-right: 1px solid $lightBlack !important;
+}
+
+.ml-1 {
+  margin-left: 0.25rem !important;
+}
+.mr-1 {
+  margin-right: 0.25rem !important;
+}
+
+.badge.badge-light {
+  color: #1f2933;
+  background-color: $lightGray;
+}
+.badge.badge-success {
+  color: #fff;
+  background-color: $success;
+}
+.badge.badge-danger {
+  color: #fff;
+  background-color: $danger;
+}
+.badge.badge-warning {
+  color: $black;
+  background-color: $warning;
+}
+.alert.alert-info {
+  color: #5c6c85;
+  background-color: #eff6ff;
+  border-color: #e9f2ff;
+}
+
+.rtui-block-el-id-title1,
+.rtui-tred-stp-source,
+.rtui-tred-stp-target {
+  font-family: 'Times New Roman';
+}
+
+.rtui-block-el-id-title1 {
+  font-size: 1.8rem;
+  word-spacing: 0.2rem;
+  text-align: center;
+  font-variant-ligatures: none;
+}
+.rtui-block-el-id-title2,
+.rtui-block-el-id-title2 {
+  font-size: 1.1rem;
+  word-spacing: 0.1rem;
+  text-align: center;
+  font-variant-ligatures: none;
+}
+
+.rtui-ial-class-smcaps {
+  font-variant: small-caps;
+}
+.rtui-ial-class-italic {
+  font-style: italic;
+}
+.rtui-tred-block,
+.rtui-tred-stp {
+  display: flex;
+  flex-direction: row;
+  width: 660px;
+}
+.form.form-control {
+  border: 1px solid #7b8794 !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.spinner-loading {
+  height: calc(100vh - 7rem);
+}
+
+.modal-dialog.modal-dailog-right {
+  margin-left: auto;
+  margin-right: 2px;
+}
+
+.data-tag {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  font-size: 90%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.data-tag-danger {
+  color: #fff;
+  background-color: #ef4e4e;
+}
+
+.data-tag-light {
+  color: #1f2933;
+  background-color: #e4e7eb;
+}
+.make-editor-active {
+  box-shadow: inset 0px 3px 5px 2px rgba(0, 0, 0, 0.12);
+  min-height: 4.5rem;
+  padding: 0.5rem;
+}
+.editor-chatting-1 {
+  min-height: 4.5rem;
+}
+div.rtui-block-el-h1 {
+  font-size: 2.7rem !important;
+  word-spacing: 0.2rem;
+  text-align: center;
+  font-variant-ligatures: none;
+  span {
+    font-size: 2.7rem !important;
+  }
+}
+.rtui-tred-stp--has-warnings {
+  border-left: 5px solid #f7c948;
+  padding-left: 2px;
+}
+.rtui-ial-class-bold {
+  font-weight: bold;
+}
+.rtui-block-el-p {
+  font-size: 1.1rem;
+  word-spacing: 0.1rem;
+  font-variant-ligatures: none;
+}
+.rtui-gap_mark {
+  color: red;
+  padding: 0.3rem 0.1rem 0 0.1rem;
+}
+.rtui-eagle {
+  background-color: #ccc;
+  font-family: 'V-Excelsior LT Std';
+  color: #333;
+  padding: 0.3rem 0.1rem 0 0.1rem;
+}
+.tred_row_col_source {
+  font-family: 'Times New Roman';
+}
+#commentMsg {
+  background-color: rgba(0, 0, 0, 1) !important;
+  border-radius: 0.3rem !important;
+  max-height: 3.5rem !important;
+  opacity: 1 !important;
+  color: $white !important;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 1) !important;
+  border-right: 1px solid rgba(0, 0, 0, 1) !important;
+}
+
+.custom-warnings {
+  width: 20rem;
+}
+
+.text-green {
+  color: rgb(10, 102, 64);
+}
+.rtui-ial-class-pn {
+  background-color: rgba(58, 102, 219, 0.17);
+  padding: 0.3rem 0.1rem 0 0.1rem;
+}
+.rtui-eagle {
+  background-color: #ccc;
+  font-family: 'V-Excelsior LT Std';
+  color: #333;
+  padding: 0.3rem 0.1rem 0 0.1rem;
+}
+.modal {
+  .modal-dialog.modal-custom-width {
+    max-width: 900px;
+  }
+}

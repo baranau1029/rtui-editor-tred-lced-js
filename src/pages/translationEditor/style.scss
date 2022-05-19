@@ -1,0 +1,87 @@
+@import '../../assets/scss/variables';
+.tred_wrapper_root {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 1.5rem;
+  position: relative;
+  .tred_main_container {
+    width: calc(100% - 25.5rem);
+  }
+  .tred_main {
+    width: 100%;
+    max-height: calc(100vh - 6rem);
+    overflow: auto;
+    box-shadow: inset 0px 3px 5px 2px rgba(0, 0, 0, 0.22);
+    .tooltip-wrapper {
+      position: relative;
+      background-color: $white;
+      .warning-card {
+        max-width: 20rem;
+      }
+      .arrow-left {
+        display: none;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 50%;
+        left: -15px;
+        z-index: 9999;
+        width: 12px;
+        height: 12px;
+        background-color: $white;
+        border-top: 1px solid $lightBlack;
+        border-left: 1px solid $lightBlack;
+      }
+      .bage-title {
+        font-size: 0.8rem;
+      }
+    }
+    .content-preview-padding {
+      padding: 1rem;
+      .content-preview {
+        max-width: 800px;
+        min-height: 4.5rem;
+      }
+    }
+  }
+  .tred_sidebar {
+    width: 25rem;
+    .tred_sidebar_content {
+      max-height: calc(100vh - 6rem);
+      overflow: auto;
+    }
+    .rtui-tred-toolbar-tools {
+      margin-bottom: 0.3rem;
+    }
+  }
+  .tred_header_tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-2px);
+    margin-bottom: 0.1rem;
+    h3 {
+      width: calc(50% - 5rem);
+    }
+    .editor-tools-container {
+      width: calc(50% - 5rem);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: -4rem;
+    }
+    .job-save-button {
+      min-width: 15rem;
+    }
+  }
+  .rtui-tred-main-tools-section {
+    max-height: 100%;
+    overflow-y: auto;
+  }
+}
+#audioPlayer {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
